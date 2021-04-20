@@ -12,7 +12,7 @@ body {
 
 .parte-1 {
     display: grid;
-    grid-template-columns: 1fr 8fr 2fr;
+    grid-template-columns: 1fr 8fr 3fr;
     align-items: center;
     background: white;
     flex-wrap: wrap;
@@ -49,15 +49,29 @@ body {
     margin: 0px 17px;
 }
 
-.parte-2 {
-    display: grid;
-    background: pink;
-    padding: 0px 5px;
+.busca {
+    display: inline-flex;
+    float: left;
+}
+
+.busca input {
+    padding: 9px;
+    width: 150px;
+    height: 7px;
+    margin-right: 5px;
+    border-color: black;
+}
+
+.secao-2 {
+    margin: 0 200px;
 }
 
 .parte-3 {
     display: grid;
     background: pink;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 200px;
 }
 
 .secao-4 {
@@ -76,3 +90,6 @@ body {
     justify-content: center;
     justify-content: space-around;
 }
+
+
+/* banner */
