@@ -1,1 +1,9 @@
-$('.secao-2').slick();
+$('.secao-2').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 3000
+});
