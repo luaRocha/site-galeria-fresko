@@ -106,7 +106,7 @@ creme-  #d9cbbf*/
         position: absolute;
         z-index: 5;
         top: 95%;
-        left: 43%;
+        left: 41%;
     }
     
     .slick-dots li button {
@@ -246,7 +246,7 @@ creme-  #d9cbbf*/
     }
     
     button.btn-infos:hover {
-        background: #c13540;
+        background: #fdc6c6;
         transform: translate(0, 0.375em);
     }
     
@@ -261,50 +261,90 @@ creme-  #d9cbbf*/
     /* secao 3 */
     
     .secao-3 {
-        display: flex;
-        text-align: center;
-        background-color: white;
-        padding: 50px;
-        flex-wrap: wrap;
+        display: grid;
+        /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+        grid-template-columns: repeat(3, 1fr);
+        /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+        grid-auto-rows: 100px;
+        /* espaço entre um elemento interno e outro */
+        grid-gap: 10px 10px;
+        /* margem interna que afasta os elementos da borda do grid */
+        padding-top: 50px;
         margin: 0 200px;
     }
     
     .secao-3 p {
         font-size: 16px;
-        margin-left: 90px;
-        margin-right: 90px;
-        align-items: center;
-    }
-    /* secao 4 */
-    
-    .secao-4-um {
-        display: flex;
-        background-color: #d9cbbf;
-        display: inline-block;
-        width: 1904px;
-        margin-right: -4px;
         text-align: center;
-        font-size: 200px;
     }
     
-    .secao-4 {
+    .secao-3 img {
+        padding-left: 225px;
+    }
+    /* secao 6 botão obras*/
+    
+    .secao-6 {
         display: grid;
         /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
-        grid-auto-rows: 500px;
+        grid-auto-rows: 90px;
         /* espaço entre um elemento interno e outro */
         grid-gap: 10px 10px;
         /* margem interna que afasta os elementos da borda do grid */
-        background-color: #d9cbbf;
-        padding: 50px;
-        padding-left: 160px;
+        margin: 0 200px;
     }
     
-    .secao-4 h1 {
+    .secao-6 button {
+        background-size: cover;
+        background-repeat: no-repeat;
         font-size: 18px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+        text-align: center;
+        width: 240px;
+        margin: 0 auto;
+        margin-left: 630px;
+        position: absolute;
+        z-index: 10;
+        top: 186%;
+        border-color: black;
+        border-radius: 7px;
     }
     
-    .secao-4 p {
-        font-size: 16px;
+    button.btn-obras {
+        padding: 10px 10px;
+        background: white;
+        transform-style: preserve-3d;
+        transition: all 175ms cubic-bezier(0, 0, 1, 1);
+    }
+    
+    button.btn-obras::before {
+        position: absolute;
+        content: '';
+        width: 238px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        box-shadow: 0 0.75em 0 0 black;
+        transform: translate3d(0, 0, -1em);
+        transition: all 175ms cubic-bezier(0, 0, 0, 1);
+        border-radius: 7px;
+    }
+    
+    button.btn-obras:hover {
+        background: #fdc6c6;
+        transform: translate(0, 0.375em);
+    }
+    
+    button.btn-obras:active {
+        transform: translate(0em, 0.75em);
+    }
+    
+    button.btn-obras:active::before {
+        transform: translate3d(0, 0, -1em);
+        box-shadow: 0 0.25em 0 0 black;
     }

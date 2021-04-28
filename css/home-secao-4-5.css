@@ -1,0 +1,363 @@
+/* secao 4 */
+
+.secao-4-um {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    width: 79%;
+    margin: 0 200px;
+}
+
+.secao-4-um h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.secao-4 {
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(4, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 500px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 10px 10px;
+    /* margem interna que afasta os elementos da borda do grid */
+    padding: 10px;
+    padding-left: 61px;
+    margin: 0 200px;
+}
+
+.secao-4 h1 {
+    font-size: 18px;
+}
+
+.secao-4 p {
+    font-size: 16px;
+}
+
+
+/* secao 4 img produtos */
+
+.prod-um button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    line-height: 0;
+    padding: 20px 0;
+    width: 15%;
+    top: 119%;
+    margin-left: 8px;
+    transform-origin: bottom;
+    transition: .5s;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.prod-um:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.prod-dois button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    line-height: 0;
+    padding: 20px 0;
+    width: 15%;
+    top: 119%;
+    margin-left: 8px;
+    transform-origin: bottom;
+    transition: .5s;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.prod-dois:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.prod-tres button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    line-height: 0;
+    padding: 20px 0;
+    width: 15%;
+    top: 119%;
+    margin-left: 8px;
+    transform-origin: bottom;
+    transition: .5s;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.prod-tres:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.prod-quatro button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    line-height: 0;
+    padding: 20px 0;
+    width: 15%;
+    top: 119%;
+    margin-left: 8px;
+    transform-origin: bottom;
+    transition: .5s;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.prod-quatro:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.img-um {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-um img {
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.img-um:hover img {
+    transform: scale(1.5) rotate(-15deg);
+}
+
+.img-dois {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-dois img {
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.img-dois:hover img {
+    transform: scale(1.5) rotate(-15deg);
+}
+
+.img-tres {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-tres img {
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.img-tres:hover img {
+    transform: scale(1.5) rotate(-15deg);
+}
+
+.img-quatro {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-quatro img {
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.img-quatro:hover img {
+    transform: scale(1.5) rotate(-15deg);
+}
+
+
+/* secao 5 */
+
+.secao-5 {
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(4, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 500px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 10px 10px;
+    /* margem interna que afasta os elementos da borda do grid */
+    padding: 10px;
+    padding-left: 61px;
+    margin: 0 200px;
+}
+
+.secao-5 h1 {
+    font-size: 18px;
+}
+
+.secao-5 p {
+    font-size: 16px;
+}
+
+
+/* secao 5 img produtos */
+
+.prod-cinco button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    line-height: 0;
+    padding: 20px 0;
+    width: 15%;
+    top: 173%;
+    margin-left: 8px;
+    transform-origin: bottom;
+    transition: .5s;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.prod-cinco:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.prod-seis button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    line-height: 0;
+    padding: 20px 0;
+    width: 15%;
+    top: 173%;
+    margin-left: 8px;
+    transform-origin: bottom;
+    transition: .5s;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.prod-seis:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.prod-sete button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    line-height: 0;
+    padding: 20px 0;
+    width: 15%;
+    top: 173%;
+    margin-left: 8px;
+    transform-origin: bottom;
+    transition: .5s;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.prod-sete:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.prod-oito button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    line-height: 0;
+    padding: 20px 0;
+    width: 15%;
+    top: 173%;
+    margin-left: 8px;
+    transform-origin: bottom;
+    transition: .5s;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.prod-oito:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.img-cinco {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-cinco img {
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.img-cinco:hover img {
+    transform: scale(1.5) rotate(-15deg);
+}
+
+.img-seis {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-seis img {
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.img-seis:hover img {
+    transform: scale(1.5) rotate(-15deg);
+}
+
+.img-sete {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-sete img {
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.img-sete:hover img {
+    transform: scale(1.5) rotate(-15deg);
+}
+
+.img-oito {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-oito img {
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.img-oito:hover img {
+    transform: scale(1.5) rotate(-15deg);
+}
