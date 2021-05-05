@@ -1,291 +1,298 @@
- /* secao 7 */
- 
- .secao-7-um {
-     display: flex;
-     flex-wrap: wrap;
-     display: inline-block;
-     width: 100%;
-     padding-top: 15px;
-     background-color: #d9cbbf;
- }
- 
- .secao-7-um h1 {
-     text-align: center;
-     font-size: 25px;
- }
- 
- .secao-7 {
-     display: grid;
-     /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
-     grid-template-columns: repeat(6, 1fr);
-     /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
-     grid-auto-rows: 500px;
-     /* espaço entre um elemento interno e outro */
-     grid-gap: 10px 10px;
-     /* margem interna que afasta os elementos da borda do grid */
-     background-color: #d9cbbf;
- }
- 
- .secao-7 h1 {
-     color: black;
-     font-size: 18px;
- }
- /* secao 7 img artistas */
- 
- .artista-um button {
-     position: absolute;
-     background-color: transparent;
-     color: black;
-     margin: 0;
-     bottom: 0;
-     border: 0;
-     font-size: 18px;
-     padding: 20px 0;
-     top: 217%;
-     margin-left: 100px;
-     align-items: center;
-     transform-origin: bottom;
-     transition: .5s;
-     width: 150px;
-     height: 100px;
-     left: -20px;
-     transform: perspective(500px) rotateX(90deg);
- }
- 
- .artista-um:hover button {
-     transform: perspective(500px) rotateX(0deg);
- }
- 
- .artista-dois button {
-     position: absolute;
-     background-color: transparent;
-     color: black;
-     margin: 0;
-     bottom: 0;
-     border: 0;
-     font-size: 18px;
-     padding: 20px 0;
-     top: 217%;
-     margin-left: 100px;
-     align-items: center;
-     transform-origin: bottom;
-     transition: .5s;
-     width: 150px;
-     height: 100px;
-     left: 300px;
-     transform: perspective(500px) rotateX(90deg);
- }
- 
- .artista-dois:hover button {
-     transform: perspective(500px) rotateX(0deg);
- }
- 
- .artista-tres button {
-     position: absolute;
-     background-color: transparent;
-     color: black;
-     margin: 0;
-     bottom: 0;
-     border: 0;
-     font-size: 18px;
-     padding: 20px 0;
-     top: 217%;
-     margin-left: 100px;
-     align-items: center;
-     transform-origin: bottom;
-     transition: .5s;
-     width: 150px;
-     height: 100px;
-     left: 618px;
-     transform: perspective(500px) rotateX(90deg);
- }
- 
- .artista-tres:hover button {
-     transform: perspective(500px) rotateX(0deg);
- }
- 
- .artista-quatro button {
-     position: absolute;
-     background-color: transparent;
-     color: black;
-     margin: 0;
-     bottom: 0;
-     border: 0;
-     font-size: 18px;
-     padding: 20px 0;
-     top: 217%;
-     margin-left: 100px;
-     align-items: center;
-     transform-origin: bottom;
-     transition: .5s;
-     width: 150px;
-     height: 100px;
-     left: 935px;
-     transform: perspective(500px) rotateX(90deg);
- }
- 
- .artista-quatro:hover button {
-     transform: perspective(500px) rotateX(0deg);
- }
- 
- .artista-cinco button {
-     position: absolute;
-     background-color: transparent;
-     color: black;
-     margin: 0;
-     bottom: 0;
-     border: 0;
-     font-size: 18px;
-     padding: 20px 0;
-     top: 217%;
-     margin-left: 100px;
-     align-items: center;
-     transform-origin: bottom;
-     transition: .5s;
-     width: 150px;
-     height: 100px;
-     left: 1245px;
-     transform: perspective(500px) rotateX(90deg);
- }
- 
- .artista-cinco:hover button {
-     transform: perspective(500px) rotateX(0deg);
- }
- 
- .artista-seis button {
-     position: absolute;
-     background-color: transparent;
-     color: black;
-     margin: 0;
-     bottom: 0;
-     border: 0;
-     font-size: 18px;
-     padding: 20px 0;
-     top: 217%;
-     margin-left: 100px;
-     align-items: center;
-     transform-origin: bottom;
-     transition: .5s;
-     width: 150px;
-     height: 100px;
-     left: 1560px;
-     transform: perspective(500px) rotateX(90deg);
- }
- 
- .artista-seis:hover button {
-     transform: perspective(500px) rotateX(0deg);
- }
- 
- .artista-um {
-     width: 300px;
-     height: 400px;
-     overflow: hidden;
- }
- 
- .artista-um img {
-     width: 100%;
-     z-index: 8;
-     transform: scale(0.9);
-     transition: .4s ease all;
- }
- 
- .artista-um:hover img {
-     cursor: pointer;
-     transform: scale(1.5);
-     opacity: 0.5;
- }
- 
- .artista-dois {
-     width: 300px;
-     height: 400px;
-     overflow: hidden;
- }
- 
- .artista-dois img {
-     width: 100%;
-     z-index: 8;
-     transform: scale(0.9);
-     transition: .4s ease all;
- }
- 
- .artista-dois:hover img {
-     cursor: pointer;
-     transform: scale(1.5);
-     opacity: 0.5;
- }
- 
- .artista-tres {
-     width: 300px;
-     height: 400px;
-     overflow: hidden;
- }
- 
- .artista-tres img {
-     width: 100%;
-     z-index: 8;
-     transform: scale(0.9);
-     transition: .4s ease all;
- }
- 
- .artista-tres:hover img {
-     cursor: pointer;
-     transform: scale(1.5);
-     opacity: 0.5;
- }
- 
- .artista-quatro {
-     width: 300px;
-     height: 400px;
-     overflow: hidden;
- }
- 
- .artista-quatro img {
-     width: 100%;
-     z-index: 8;
-     transform: scale(0.9);
-     transition: .4s ease all;
- }
- 
- .artista-quatro:hover img {
-     cursor: pointer;
-     transform: scale(1.5);
-     opacity: 0.5;
- }
- 
- .artista-cinco {
-     width: 300px;
-     height: 400px;
-     overflow: hidden;
- }
- 
- .artista-cinco img {
-     width: 100%;
-     z-index: 8;
-     transform: scale(0.9);
-     transition: .4s ease all;
- }
- 
- .artista-cinco:hover img {
-     cursor: pointer;
-     transform: scale(1.5);
-     opacity: 0.5;
- }
- 
- .artista-seis {
-     width: 300px;
-     height: 400px;
-     overflow: hidden;
- }
- 
- .artista-seis img {
-     width: 100%;
-     z-index: 8;
-     transform: scale(0.9);
-     transition: .4s ease all;
- }
- 
- .artista-seis:hover img {
-     cursor: pointer;
-     transform: scale(1.5);
-     opacity: 0.5;
- }
+/* secao 7 */
+
+.secao-7-um {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+    background-color: white;
+}
+
+.secao-7-um h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.secao-7 {
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(6, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 500px;
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 10px 10px;
+    /* margem interna que afasta os elementos da borda do grid */
+    background-color: white;
+    margin-left: 10px;
+}
+
+.secao-7 h1 {
+    position: absolute;
+    z-index: 10;
+    color: black;
+    font-size: 15px;
+    top: 245%;
+    margin-left: 15px;
+}
+
+
+/* secao 7 img artistas */
+
+.artista-um button {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    padding: 20px 0;
+    top: 220%;
+    margin-left: 100px;
+    align-items: center;
+    transform-origin: bottom;
+    transition: .5s;
+    width: 150px;
+    height: 100px;
+    left: -20px;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.artista-um:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.artista-dois button {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    padding: 20px 0;
+    top: 220%;
+    margin-left: 100px;
+    align-items: center;
+    transform-origin: bottom;
+    transition: .5s;
+    width: 150px;
+    height: 100px;
+    left: 300px;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.artista-dois:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.artista-tres button {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    padding: 20px 0;
+    top: 220%;
+    margin-left: 100px;
+    align-items: center;
+    transform-origin: bottom;
+    transition: .5s;
+    width: 150px;
+    height: 100px;
+    left: 618px;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.artista-tres:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.artista-quatro button {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    padding: 20px 0;
+    top: 220%;
+    margin-left: 100px;
+    align-items: center;
+    transform-origin: bottom;
+    transition: .5s;
+    width: 150px;
+    height: 100px;
+    left: 935px;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.artista-quatro:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.artista-cinco button {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    padding: 20px 0;
+    top: 220%;
+    margin-left: 100px;
+    align-items: center;
+    transform-origin: bottom;
+    transition: .5s;
+    width: 150px;
+    height: 100px;
+    left: 1245px;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.artista-cinco:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.artista-seis button {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 18px;
+    padding: 20px 0;
+    top: 220%;
+    margin-left: 100px;
+    align-items: center;
+    transform-origin: bottom;
+    transition: .5s;
+    width: 150px;
+    height: 100px;
+    left: 1560px;
+    transform: perspective(500px) rotateX(90deg);
+}
+
+.artista-seis:hover button {
+    transform: perspective(500px) rotateX(0deg);
+}
+
+.artista-um {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.artista-um img {
+    width: 100%;
+    z-index: 8;
+    transform: scale(0.9);
+    transition: .4s ease all;
+}
+
+.artista-um:hover img {
+    cursor: pointer;
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+
+.artista-dois {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.artista-dois img {
+    width: 100%;
+    z-index: 8;
+    transform: scale(0.9);
+    transition: .4s ease all;
+}
+
+.artista-dois:hover img {
+    cursor: pointer;
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+
+.artista-tres {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.artista-tres img {
+    width: 100%;
+    z-index: 8;
+    transform: scale(0.9);
+    transition: .4s ease all;
+}
+
+.artista-tres:hover img {
+    cursor: pointer;
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+
+.artista-quatro {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.artista-quatro img {
+    width: 100%;
+    z-index: 8;
+    transform: scale(0.9);
+    transition: .4s ease all;
+}
+
+.artista-quatro:hover img {
+    cursor: pointer;
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+
+.artista-cinco {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.artista-cinco img {
+    width: 100%;
+    z-index: 8;
+    transform: scale(0.9);
+    transition: .4s ease all;
+}
+
+.artista-cinco:hover img {
+    cursor: pointer;
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+
+.artista-seis {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.artista-seis img {
+    width: 100%;
+    z-index: 8;
+    transform: scale(0.9);
+    transition: .4s ease all;
+}
+
+.artista-seis:hover img {
+    cursor: pointer;
+    transform: scale(1.5);
+    opacity: 0.5;
+}
