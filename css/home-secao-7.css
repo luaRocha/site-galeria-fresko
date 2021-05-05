@@ -6,7 +6,7 @@
      display: inline-block;
      width: 100%;
      padding-top: 15px;
-     background-color: #d9cbbf;
+     background-color: white;
  }
  
  .secao-7-um h1 {
@@ -23,12 +23,17 @@
      /* espaço entre um elemento interno e outro */
      grid-gap: 10px 10px;
      /* margem interna que afasta os elementos da borda do grid */
-     background-color: #d9cbbf;
+     background-color: white;
+     margin-left: 10px;
  }
  
  .secao-7 h1 {
+     position: absolute;
+     z-index: 10;
      color: black;
-     font-size: 18px;
+     font-size: 15px;
+     top: 245%;
+     margin-left: 15px;
  }
  /* secao 7 img artistas */
  
@@ -41,7 +46,7 @@
      border: 0;
      font-size: 18px;
      padding: 20px 0;
-     top: 217%;
+     top: 220%;
      margin-left: 100px;
      align-items: center;
      transform-origin: bottom;
@@ -65,7 +70,7 @@
      border: 0;
      font-size: 18px;
      padding: 20px 0;
-     top: 217%;
+     top: 220%;
      margin-left: 100px;
      align-items: center;
      transform-origin: bottom;
@@ -89,7 +94,7 @@
      border: 0;
      font-size: 18px;
      padding: 20px 0;
-     top: 217%;
+     top: 220%;
      margin-left: 100px;
      align-items: center;
      transform-origin: bottom;
@@ -113,7 +118,7 @@
      border: 0;
      font-size: 18px;
      padding: 20px 0;
-     top: 217%;
+     top: 220%;
      margin-left: 100px;
      align-items: center;
      transform-origin: bottom;
@@ -137,7 +142,7 @@
      border: 0;
      font-size: 18px;
      padding: 20px 0;
-     top: 217%;
+     top: 220%;
      margin-left: 100px;
      align-items: center;
      transform-origin: bottom;
@@ -161,7 +166,7 @@
      border: 0;
      font-size: 18px;
      padding: 20px 0;
-     top: 217%;
+     top: 220%;
      margin-left: 100px;
      align-items: center;
      transform-origin: bottom;
